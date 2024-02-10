@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pain Tracker</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 style="background-color: #ffffff; margin-left: 200px; margin-right: 200px; border-radius: 10px; opacity: 0.9;">Pain Tracker</h1>
+    <div class="patient-info">
+      <div class="input-group">
+        <label for="patientName">Name of Patient:</label>
+        <input type="text" id="patientName">
+      </div>
+      <div class="input-group">
+        <label for="patientAge">Age:</label>
+        <input type="number" id="patientAge" min="1" max="120">
+      </div>
+    </div>
+    <div class="pain-inputs">
+      <div class="input-group">
+        <label for="painLevel">Pain Level (1-10):</label>
+        <input type="number" id="painLevel" min="1" max="10">
+      </div>
+      <div class="input-group">
+        <label for="painArea">Pain Area:</label>
+        <select id="painArea">
+          <option value="Joint Pain">Joint Pain</option>
+          <option value="Muscle Pain">Muscle Pain</option>
+          <option value="Headache">Headache</option>
+          <option value="Bone Pain">Bone Pain</option>
+          
+        </select>
+      </div>
+      <div class="input-group">
+        <label for="painDuration">Pain Duration (in days):</label>
+        <input type="number" id="painDuration" min="1" max="365">
+      </div>
+    </div>
+    <button id="addEntryBtn">Add Entry</button>
+
+    <h2 id="entries-heading">Entries</h2>
+    <div id="entries"></div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
