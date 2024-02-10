@@ -22,7 +22,7 @@ tracking and analyzing relevant data.
 
 
 
-3)After pressing click in the add entry we can see that we got the Recommendated Medicines, Doses, Assumption and some Precautions for the patient's pain.
+3)After pressing click in the add entry we can see that we got the Recommended Medicines, Doses, Assumption and some Precautions for the patient's pain.
 ![Screenshot (263)](https://github.com/ripusci123/Pain-Tracker/assets/78871944/65c84247-39ab-446f-b099-17dcfe68fa62)
 
 
